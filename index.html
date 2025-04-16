@@ -524,7 +524,7 @@
       const rows = transactions.map(txn => [
         `"${txn.date}"`,
         `"${txn.category}"`,
-        tx.amount.toFixed(2),
+        txn.amount.toFixed(2),
         txn.rate,
         txn.cashback.toFixed(2)
       ]);
